@@ -1,0 +1,33 @@
+.input-controll{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.div-controll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.form-controll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-controll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: transparent;
+    color: #ff0000;
+    padding: .8rem;
+    width: 12rem;
+}
