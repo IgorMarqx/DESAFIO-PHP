@@ -26,8 +26,13 @@
 }
 
 .btn{
-    background-color: transparent;
-    color: #ff0000;
-    padding: .8rem;
+    background-color: #878686;
+    border: none;
+    color: #fff;
+    padding: .5rem;
     width: 12rem;
+}
+
+.btn:hover{
+    background-color: #a9a9a9;
 }
