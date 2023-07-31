@@ -44,7 +44,7 @@ Você deverá criar um botao na tabela do Read para poder excluir o dado selecio
 
 - (OPCIONAL): Se você quiser testar seus conhecimentos em JS você pode implementar uma verificação se deseja mesmo excluir com javascript, ou você pode também implementar isso com bootstrap em um modal.
 
-## Desafios adicionais
+## Desafios adicionais (OPCIONAL)
 
 1. Não deixar os campos serem enviados vazios.
 2. Usar validação para prevenir o BD de receber SQL INJECTION - [O que é isso?](https://www.devmedia.com.br/sql-injection/6102).
