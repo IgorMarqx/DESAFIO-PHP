@@ -4,8 +4,8 @@ O desafio consiste em você fazer um CRUD utilizando PHP e MySQL. Primeiramente 
 ## O que fazer?
 
 1. Antes de tudo você precisa fazer um git clone desse repositório.
-2. Em seguida você terá que criar sua branch - [Instruções de como criar](https://www.atlassian.com/br/git/tutorials/using-branches/git-checkout)
-3. Nessa sua branch você irá fazer todo o código. Sempre lembre de commitar as coisas que você fizer.
+2. Em seguida crie sua branch - [Instruções de como criar](https://www.atlassian.com/br/git/tutorials/using-branches/git-checkout)
+3. Nessa sua branch você irá fazer todo o seu código. Sempre lembre de commitar as coisas que você fizer.
 4. Após tudo concluido você irá subir sua branch com todas as alterações. Em seguida você irá fazer um pull request para a main. 
 
 ## Como rodar o PHP?
