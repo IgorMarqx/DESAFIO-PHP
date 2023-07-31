@@ -20,6 +20,7 @@ O desafio consiste em você fazer um CRUD utilizando PHP e MySQL. Primeiramente 
 
 1. Você deverá criar um banco de dados MySQL e poderá dar o nome que quiser para esse banco. Nele você terá que criar uma tabela chamada clientes.
 2. Você pode escolher algum gerenciador de banco de dados para visualizar melhor o seu banco (HeidiSQL, Beekeeper Studio, etc).
+3. O que salva no banco de dados: (Nome, E-mail, Cpf, Número e Data de Nascimento).
 
 ## Create
 
@@ -27,15 +28,15 @@ Você deverá criar uma página index.php e nela colocar os campos de input (Nom
 
 ## Read
 
-Você deverá criar uma página separada que liste todas os dados do banco de dados em uma tabela, não é obrigatório estilizar mas se quiser treinar seu css fique a vontade.
+Você deverá criar uma página separada que liste todas os registros do banco de dados em uma tabela, não é obrigatório estilizar mas se quiser treinar seu css fique a vontade.
 
 Na tabela de listagem você deverá implementar dois botoes para editar e excluir o dado especifico.
 
 ## Update
 
-Você deverá criar uma página onde deverá ter campos inputs para poder editar os dados selecionados, deverá estar disponivel para editar (Nome, E-mail, Cpf, Número e Data de Nascimento).
+Você deverá criar uma página onde deverá ter campos inputs para poder editar os registros selecionados, deverá estar disponivel para editar (Nome, E-mail, Cpf, Número e Data de Nascimento).
 
-- (OPCIONAL): Se você quiser ao invés de criar uma outra página para editar o usuario, você pode criar um modal com bootstrap para editar o usuario na mesma página.|
+- (OPCIONAL): Se você quiser ao invés de criar uma outra página para editar o usuario, você pode criar um modal com bootstrap para editar o registros na mesma página.|
 
 ## Delete 
 
@@ -49,6 +50,8 @@ Você deverá criar um botao na tabela do Read para poder excluir o dado selecio
 2. Usar validação para prevenir o BD de receber SQL INJECTION - [O que é isso?](https://www.devmedia.com.br/sql-injection/6102).
 3. Retornar erros personalizados nos campos de input quando der houver algum erro de validação.
 4. Exibir data de nascimento formatada. Ex: 10/10/2010.
-
+5. Implementar mascara nos campos de telefone, data de nascimento e CPF. Caso queira usar biblioteca de mascara fique a vontade.
+6. Exibir CPF e Número formatado. Ex: 000.000.000-00,(83) 90000-0000.
+7. Fazer deploy do sistema. Fica por sua escolha o host que você quiser utilizar. (GITHUB, VERCEL, NETFLIY).
 
 
