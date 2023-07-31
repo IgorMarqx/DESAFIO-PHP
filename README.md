@@ -1,6 +1,9 @@
 # DESAFIO-PHP
 
 O desafio consiste em você fazer um CRUD utilizando PHP e MySQL. Primeiramente você terá que criar uma página de Create (criar), e outra de Read (listar). Depois você terá que criar a página de Update (editar) e por fim a de Delete (apagar).
+
+- OBS: Não é obrigatório estilizar. Mas pode ficar a vontade se quiser.
+
 ## O que fazer?
 
 1. Antes de tudo você precisa fazer um git clone desse repositório.
@@ -21,6 +24,31 @@ O desafio consiste em você fazer um CRUD utilizando PHP e MySQL. Primeiramente 
 ## Create
 
 Você deverá criar uma página index.php e nela colocar os campos de input (Nome, E-mail, Cpf, Número e Data de Nascimento). Esses campos serão salvos no banco de dados ao enviar o formulário.
+
+## Read
+
+Você deverá criar uma página separada que liste todas os dados do banco de dados em uma tabela, não é obrigatório estilizar mas se quiser treinar seu css fique a vontade.
+
+Na tabela de listagem você deverá implementar dois botoes para editar e excluir o dado especifico.
+
+## Update
+
+Você deverá criar uma página onde deverá ter campos inputs para poder editar os dados selecionados, deverá estar disponivel para editar (Nome, E-mail, Cpf, Número e Data de Nascimento).
+
+- (OPCIONAL): Se você quiser ao invés de criar uma outra página para editar o usuario, você pode criar um modal com bootstrap para editar o usuario na mesma página.|
+
+## Delete 
+
+Você deverá criar um botao na tabela do Read para poder excluir o dado selecionado.
+
+- (OPCIONAL): Se você quiser testar seus conhecimentos em JS você pode implementar uma verificação se deseja mesmo excluir com javascript, ou você pode também implementar isso com bootstrap em um modal.
+
+## Desafios adicionais
+
+1. Não deixar os campos serem enviados vazios.
+2. Usar validação para prevenir o BD de receber SQL INJECTION - [O que é isso?](https://www.devmedia.com.br/sql-injection/6102).
+3. Retornar erros personalizados nos campos de input quando der houver algum erro de validação.
+4. Exibir data de nascimento formatada. Ex: 10/10/2010.
 
 
 
