@@ -54,4 +54,41 @@ Você deverá criar um botao na tabela do Read para poder excluir o dado selecio
 6. Exibir CPF e Número formatado. Ex: 000.000.000-00,(83) 90000-0000.
 7. Fazer deploy do sistema. Fica por sua escolha o host que você quiser utilizar. (GITHUB, VERCEL, NETFLIY).
 
+## Fazendo um FORK e subindo commits:
+1. Primeiro você vai fazer um FORK desse repositorio. No site do github no repositorio que você queira fazer um fork tem um campo chamado FORK, basta você clicar la e fazer o FORK. 
+2. Em seguida você irá clonar meu repositório para sua maquina local.
+```
+$ git clone LINK DO SEU REPOSITORIO DEPOIS DO FORK
+```
+3. Depois você irá iniciar o git no seu projeto local.
+```
+$ git init
+```
+4. Adiciona a URL do seu fork para o git saber para onde subir.
+```
+$ git remote add origin LINK DO SEU REPOSITORIO
+```
+5. Antes de seguir os próximos passos, você deve criar uma nova branch e subir todas as atualizações para ela.
+```
+$ git checkout -b nova-branch-moovery
+```
+``` 
+$ git branch (para verificar em qual branch você estar)
+```
+6. Após isso você ira seguir uma sequencia de comandos para verificar se foi subido, para adicionar e para commitar.
+```
+$ git status (verificar o status do seu projeto)
+```
+7. Adicionar todos os arquivos para seu commit.
+```
+$ git add .
+```
+8. Adiciona um commit e passa uma mensagem especificando qual foi a alteração no código.
+```
+$ git commit -m "mensagem para sue commit"
+```
+9. Pronto, feito isso basta subir suas atualizações.
+```
+$ git push origin nome-da-sua-branch
+```
 
