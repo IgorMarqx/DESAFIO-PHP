@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(156, 46, 224, 0.575);
+}
+h1 {
+    text-align: center;
+}
+.table-bg{
+    background: rgba(0,0,0,0.3);
+}

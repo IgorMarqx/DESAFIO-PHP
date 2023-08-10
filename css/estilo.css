@@ -1,0 +1,98 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgba(156, 46, 224, 0.575); 
+ }
+ #bg-body{
+  background-color: linear-gradient(purple); 
+ }
+ div {
+   font-family:Arial, Helvetica, sans-serif;
+   color: rgb(146, 50, 181);
+ }
+ .box { 
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: rgba(115, 41, 163, 0.83);
+   padding: 15px;
+   border-radius: 15px;
+   width: 20%;
+ }
+ fieldset{
+   border: 2px solid white;
+   
+ }
+ legend{
+   border: 2px solid white;
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+ }
+
+ /* Cor do título */
+ #titulo{
+   color: white; 
+   
+ }
+ .inputbox {
+   position: relative;
+ }
+ .inputUser {
+   background: none;
+   border: none;
+   border-bottom: 1px solid rgb(227, 217, 234);
+   outline: none;
+   color: white;
+   font-size: 15px;
+   width: 100%;
+   letter-spacing: 1px;
+ }
+
+ .labelInput{
+   position: relative;
+   top: 0x;
+   left: 0px;
+   pointer-events: none;
+   transition: .5s;
+   color: white;
+
+   
+ }  
+ 
+ .inputUser:focus ~ .labelInput{
+    top: -50px;
+    font-size: 10px;
+    color: white;
+ } 
+ 
+ #dt {
+  color: white;
+ }
+ #dt_nascimento { 
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgba(170, 170, 170, 0.697);
+   outline: none;
+   color: white;
+ }
+ #submit {
+   background-color: purple;
+   width: 100%;
+   border: none;
+   border-radius: 10px;
+   padding: 15px;
+   color: white;
+   font-size: 15px;
+   cursor: pointer;   
+   margin-top: 1rem;
+ }
+#submit:hover{
+   background-color: white;
+   color:rgb(130, 40, 186);
+}
+
+
+ 
+ 
+ 
